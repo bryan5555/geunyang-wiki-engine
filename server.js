@@ -536,8 +536,8 @@ try {
 		host: input('호스트 주소: '),
 		port: input('포트 번호: '),
 		skin: input('기본 스킨 이름: '),
-		search_host: input('검색 서버 주소: '),
-		search_port: input('검색 서버 : '),
+		search_host: '127.5.5.5',
+		search_port: '25005',
 		owners: [input('소유자 닉네임: ')],
 	};
 	/*
