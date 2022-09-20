@@ -21,10 +21,8 @@ const diff = require('./cemerick-jsdifflib.js');
 const cookieParser = require('cookie-parser');
 const child_process = require('child_process');
 const captchapng = require('captchapng');
-
 const timeFormat = 'Y-m-d H:i:s';  // 날짜 및 시간 기본 형식
 const _ = undefined;
-
 const floorof = Math.floor;
 const randint = (s, e) => floorof(Math.random() * (e + 1 - s) + s);
 
