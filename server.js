@@ -1,5 +1,3 @@
-/* 병아리 엔진 - the seed 모방 프로젝트 */
-
 const http = require('http');
 const https = require('https');
 const path = require('path');
@@ -529,7 +527,7 @@ try {
 	if(!(minor > 0 || (minor == 0 && revision >= 20))) perms = perms.concat(['developer', 'tribune', 'arbiter']);
 	if(hostconfig.debug) perms.push('debug');
 } catch(e) { (async function() {
-	print('병아리 - the seed 모방 엔진에 오신것을 환영합니다.\n');
+	print('그냥 위키 엔진에 오신것을 환영합니다.\n');
 	
 	if(typeof hostconfig != 'object')
 	
@@ -538,8 +536,8 @@ try {
 		host: input('호스트 주소: '),
 		port: input('포트 번호: '),
 		skin: input('기본 스킨 이름: '),
-		search_host: '127.5.5.5',
-		search_port: '25005',
+		search_host: input('검색 서버 주소: ')
+		search_port: input('검색 서버 : '),
 		owners: [input('소유자 닉네임: ')],
 	};
 	/*
