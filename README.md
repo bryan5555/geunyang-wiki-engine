@@ -4,3 +4,6 @@
 ## 이슈트래커
 https://feedback.geunyang.ga
 제한적입니다 아님 여기 issue 쓰셔도 됩니다
+## 디스코드
+https://discord.gg/65m2rPQpJ9
+들어오든가 말든가 하세요.
