@@ -1183,7 +1183,7 @@ async function markdown(req, content, discussion = 0, title = '', flags = '', ro
 		const notexist = !ddata.length ? ' not-exist' : '';
 		
 		if(dest.startsWith('분류:') && !discussion) {  // 분류
-			cates += `<li><a href="/w/${encodeURIComponent(dest)}" class="wiki-link-internal${notexist}">${html.escape(dest.replace('분류:', ''))}</a></li>`;
+			cates += `<li><a href="/w/${encodeURIComponent(dest)}" class="wiki-link-internal${notexist}">${html.escape(dest.replace('분류:', ' '))}</a></li>`;
 			if(xref) {
 				curs.execute("insert into backlink (title, namespace, link, linkns, type) values (?, ?, ?, ?, 'category')", [doc.title, doc.namespace, dest.replace('분류:', ''), '분류']);
 			}
