@@ -2,9 +2,9 @@
   "engines": {
     "node": "12"
   },
-  "name": "imitated-seed-v2",
+  "name": "geunyang-wiki-engine",
   "version": "4.12.0",
-  "description": "더 시드 모방 엔진.",
+  "description": "그냥 위키 엔진.",
   "main": "server.js",
   "dependencies": {
     "body-parser": "^1.20.0",
@@ -39,7 +39,7 @@
   "author": "ㅇ",
   "license": "UNLICENSED",
   "bugs": {
-    "url": "https://github.com/gdl-888/imitated-seed-v2/issues"
+    "url": "https://github.com/bryan5555/geunyang-wiki-engine/issues"
   },
-  "homepage": "https://github.com/gdl-888/imitated-seed-v2#readme"
+  "homepage": "https://github.com/bryan5555/geunyang-wiki-engine#readme"
 }
